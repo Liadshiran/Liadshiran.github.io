@@ -14,13 +14,15 @@
   xl8_script.async = true
   document.body.appendChild(xl8_script)
   console.log('script end')
+ 
+  localStorage.setItem('ruid', '220bf6ca-test-4fa0-96ce-d23f9867d6d1')
   window.xl8_config = {
    p: 815,
    g: 192,
    ppidCollectionEnabled: true,
-   ppidManagedBy: 'NMC',
-   ppidStorageType: 'Cookie',
-   ppidStorageKey: 'nmcPPID',
+   ppidManagedBy: 'Publisher',
+   ppidStorageKey: 'ruid',
+   ppidStorageType: 'LS',
    ppidTTL: 60
   }
 </script>
